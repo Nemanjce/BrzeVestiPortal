@@ -51,6 +51,6 @@ public class TestCategories {
         String expectedUrl = "http://bvtest.school.cubes.rs/admin/categories";
         String actualUrl = loginPage.getDriver().getTitle();
 //  String actualUrl = driver.getCurrentUrl();
-        Assert.assertEquals("Url's don' match", expectedUrl, actualUrl);
+        Assert.assertEquals("Url's don't match", expectedUrl, actualUrl);
     }
 }
